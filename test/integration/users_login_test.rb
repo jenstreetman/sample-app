@@ -5,6 +5,7 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
   # # Creats a user for testing
    def setup
     @user = users(:jennifer)
+    @other_user = users(:michael)
    end
 
   # Tests tht the flash displays some message on eror, but not on other pages
